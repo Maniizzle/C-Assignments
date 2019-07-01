@@ -1,0 +1,6 @@
+C:\Users\OLAMIDE ONAKOYA\source\repos\class1week2\BinaryNumber\bin\Debug\BinaryNumber.exe.config
+C:\Users\OLAMIDE ONAKOYA\source\repos\class1week2\BinaryNumber\bin\Debug\BinaryNumber.exe
+C:\Users\OLAMIDE ONAKOYA\source\repos\class1week2\BinaryNumber\bin\Debug\BinaryNumber.pdb
+C:\Users\OLAMIDE ONAKOYA\source\repos\class1week2\BinaryNumber\obj\Debug\BinaryNumber.csproj.CoreCompileInputs.cache
+C:\Users\OLAMIDE ONAKOYA\source\repos\class1week2\BinaryNumber\obj\Debug\BinaryNumber.exe
+C:\Users\OLAMIDE ONAKOYA\source\repos\class1week2\BinaryNumber\obj\Debug\BinaryNumber.pdb

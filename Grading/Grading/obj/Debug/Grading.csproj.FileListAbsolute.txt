@@ -1,0 +1,7 @@
+C:\Users\OLAMIDE ONAKOYA\source\repos\Grading\Grading\bin\Debug\Grading.exe.config
+C:\Users\OLAMIDE ONAKOYA\source\repos\Grading\Grading\bin\Debug\Grading.exe
+C:\Users\OLAMIDE ONAKOYA\source\repos\Grading\Grading\bin\Debug\Grading.pdb
+C:\Users\OLAMIDE ONAKOYA\source\repos\Grading\Grading\obj\Debug\Grading.csprojAssemblyReference.cache
+C:\Users\OLAMIDE ONAKOYA\source\repos\Grading\Grading\obj\Debug\Grading.csproj.CoreCompileInputs.cache
+C:\Users\OLAMIDE ONAKOYA\source\repos\Grading\Grading\obj\Debug\Grading.exe
+C:\Users\OLAMIDE ONAKOYA\source\repos\Grading\Grading\obj\Debug\Grading.pdb

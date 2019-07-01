@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{6880884B-C8FB-4A5B-9238-00455D6C2F40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{61A39532-0E24-4373-A443-C5A8D6E44648}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Division", "Division\Division.csproj", "{00946B5B-FCEB-4D00-9507-FB50E4E15081}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6880884B-C8FB-4A5B-9238-00455D6C2F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6880884B-C8FB-4A5B-9238-00455D6C2F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6880884B-C8FB-4A5B-9238-00455D6C2F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6880884B-C8FB-4A5B-9238-00455D6C2F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61A39532-0E24-4373-A443-C5A8D6E44648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61A39532-0E24-4373-A443-C5A8D6E44648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61A39532-0E24-4373-A443-C5A8D6E44648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61A39532-0E24-4373-A443-C5A8D6E44648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00946B5B-FCEB-4D00-9507-FB50E4E15081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00946B5B-FCEB-4D00-9507-FB50E4E15081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00946B5B-FCEB-4D00-9507-FB50E4E15081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00946B5B-FCEB-4D00-9507-FB50E4E15081}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {164BEAAD-E7C3-4116-B63F-4C46D9DB22F6}
+	EndGlobalSection
+EndGlobal
