@@ -1,0 +1,5 @@
+C:\Users\OLAMIDE ONAKOYA\source\repos\class1week2\OlamideUtility.core\bin\Debug\OlamideUtility.core.dll
+C:\Users\OLAMIDE ONAKOYA\source\repos\class1week2\OlamideUtility.core\bin\Debug\OlamideUtility.core.pdb
+C:\Users\OLAMIDE ONAKOYA\source\repos\class1week2\OlamideUtility.core\obj\Debug\OlamideUtility.core.csproj.CoreCompileInputs.cache
+C:\Users\OLAMIDE ONAKOYA\source\repos\class1week2\OlamideUtility.core\obj\Debug\OlamideUtility.core.dll
+C:\Users\OLAMIDE ONAKOYA\source\repos\class1week2\OlamideUtility.core\obj\Debug\OlamideUtility.core.pdb

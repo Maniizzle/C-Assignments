@@ -1,14 +1,64 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IntegerToWord
+namespace OlamideUtility.core
 {
-    class Program
+    public static class OlaUtility
     {
+        
+        public static string BaseToBase(string Number, int TheNumbersBase, int TheNewBase)
+        {
+           
+            ulong decimalNumber = BaseToDecimal(Number, TheNumbersBase);
+            return DecimalToBase(decimalNumber, TheNewBase);
+
+
+        }
+
+        static string DecimalToBase(ulong decimalInput, int baseNumber)
+        {
+            string hexMap = "0123456789ABCDEF";
+            string joinedNewNumber = "";
+        Restart:
+            if (decimalInput > 0)
+            {
+                int newNumber = (int) (decimalInput % (ulong)baseNumber);
+                decimalInput = decimalInput / (ulong)baseNumber;
+                char newNumberString = hexMap[newNumber];
+                joinedNewNumber = newNumberString + joinedNewNumber;
+            }
+
+            else
+            {
+                return joinedNewNumber;
+            }
+            goto Restart;
+
+        }
+
+
+        static ulong BaseToDecimal(string inputNum, int theBase)
+        {
+            string newInput = inputNum.ToUpper();
+            string hexMap = "0123456789ABCDEF";
+            ulong decimalValue = 0;
+            int power = inputNum.Length;
+
+            for (int i = 0; i < inputNum.Length; i++)
+            {
+                string eachValue = newInput.Substring(i, 1);
+                int Value = hexMap.IndexOf(eachValue);
+                decimalValue += (ulong)Value * (ulong)Math.Pow(theBase, power - 1);
+                power--;
+            }
+            return decimalValue;
+        }
+
+
+
         static string[] digit = {"Zero ","One","Two","Three","Four","Five","Six","Seven","Eight" ,"Nine","Ten","Eleven","Twelve","Thirteen","Fourteen"
             ,"Fifteen","Sixteen", "Seventeen","Eighteen","Nineteen","Twenty"};
 
@@ -20,15 +70,7 @@ namespace IntegerToWord
         /// </summary>
         /// <param name="num">Number to convert to word</param>
         /// <returns>a textual representation of the given number</returns>
-
-        
-        static void Main(string[] args)
-        {
-
-            ConvertNumberToWords(1455);
-        }
-
-         public static string ConvertNumberToWords(long num)
+        public static string ConvertNumberToWords(long num)
         {
             string ans = "";
             if (num < 1000000000)
